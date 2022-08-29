@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Image, Text } from 'react-native'
+import { View, Text } from 'react-native'
 import ListItem from './components/ListItem'
 import styles from './Profile.style'
 import Human from '../../../assets/svg/Human.svg'
