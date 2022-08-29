@@ -2,10 +2,10 @@ import React from 'react'
 import { View, Text } from 'react-native'
 import ListItem from './components/ListItem'
 import styles from './Profile.style'
-import Human from '../../../assets/svg/human.svg'
-import Birthday from '../../../assets/svg/birthday.svg'
-import Gender from '../../../assets/svg/gender.svg'
-import Profileimg from '../../../assets/svg/profile.svg'
+import Human from '../../../assets/svg/Human.svg'
+import Birthday from '../../../assets/svg/Birthday.svg'
+import Gender from '../../../assets/svg/Gender.svg'
+import Profileimg from '../../../assets/svg/Profile.svg'
 
 
 function Profile() {
