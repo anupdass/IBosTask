@@ -12,10 +12,10 @@ function HomePage() {
         <View style={{ backgroundColor: '#F2F2F7', width: "100%", height: '100%', position: 'relative' }}>
             <CustomStatusbar backgraoundColor={ColorStyle.statusBarColor} />
             <MenuBar />
-            <ScrollView style={{ marginTop: 56 }}>
+            <ScrollView >
                 <Profile />
                 <Employee />
-                {/* <Input /> */}
+                <Input />
             </ScrollView>
         </View>
     )
