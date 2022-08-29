@@ -10,7 +10,7 @@ function ListItem({ Image, title, dept, region, regTitle }) {
             {/* <Image source={img} style={styles.img} /> */}
             <Image />
             <View style={styles.content}>
-                <View style={region ? styles.region : 'null'}>
+                <View style={region ? styles.region : null}>
                     <Text style={styles.title}>{title}</Text>
                     <Text style={styles.dept}>{dept}</Text>
                 </View>

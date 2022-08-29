@@ -3,12 +3,12 @@ import { View } from 'react-native';
 import CustomTitle from '../CustomTitle/CustomTitle';
 import EmployeeItem from './components/EmployeeItem';
 
-import Leave from '../../../assets/svg/Leave.svg'
-import Loan from '../../../assets/svg/Loan.svg'
-import Movement from '../../../assets/svg/Movement.svg'
-import Overtime from '../../../assets/svg/Overtime.svg'
-import Remote from '../../../assets/svg/Remote.svg'
-import Iou from '../../../assets/svg/Iou.svg'
+import Leave from '../../../assets/svg/leave.svg'
+import Loan from '../../../assets/svg/loan.svg'
+import Movement from '../../../assets/svg/movement.svg'
+import Overtime from '../../../assets/svg/overtime.svg'
+import Remote from '../../../assets/svg/remote.svg'
+import Iou from '../../../assets/svg/iou.svg'
 
 import styles from './Employee.style'
 
@@ -18,7 +18,7 @@ function Employee() {
 
         {
             id: 1,
-            title: 'Movement',
+            title: 'Leave',
             color: '#2E90FA',
             image: Leave
         },
