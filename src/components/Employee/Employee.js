@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import CustomTitle from '../CustomTitle/CustomTitle';
 import EmployeeItem from './components/EmployeeItem';
 
-import Leave from '../../../assets/svg/leave.svg'
+// import Leave from '../../../assets/svg/leave.svg'
 import Loan from '../../../assets/svg/loan.svg'
 import Movement from '../../../assets/svg/movement.svg'
 import Overtime from '../../../assets/svg/overtime.svg'
@@ -15,12 +15,7 @@ import styles from './Employee.style'
 function Employee() {
 
     const employeeData = [
-        {
-            id: 1,
-            title: 'Leave',
-            color: '#D444F1',
-            image: Leave
-        },
+
         {
             id: 2,
             title: 'Movement',
