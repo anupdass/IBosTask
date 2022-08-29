@@ -6,7 +6,7 @@ import styles from './Profile.style'
 // import Human from '../../../assets/svg/human.svg'
 // import Birthday from '../../../assets/svg/birthday.svg'
 // import Gender from '../../../assets/svg/gender.svg'
-// import Profileimg from '../../../assets/svg/profile.svg'
+import Profileimg from '../../../assets/svg/profile.svg'
 
 
 function Profile() {
@@ -38,8 +38,8 @@ function Profile() {
         <View style={styles.container}>
             <View style={styles.Profilecontent}>
                 <View style={styles.content}>
-                    {/* <Profileimg /> */}
-                    <Image source={require('../../../assets/profileImg.png')} />
+                    <Profileimg />
+                    {/* <Image source={require('../../../assets/profileImg.png')} /> */}
                     <View style={styles.contentText}>
                         <Text style={styles.name}>Darlene Robertson</Text>
                         <Text style={styles.title}>Senior UX Designer</Text>
