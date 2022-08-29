@@ -14,7 +14,7 @@ function HomePage() {
             <MenuBar />
             <ScrollView style={{ marginTop: 56 }}>
                 <Profile />
-                {/* <Employee /> */}
+                <Employee />
                 <Input />
             </ScrollView>
         </View>

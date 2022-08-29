@@ -47,7 +47,7 @@ function Profile() {
 
                 <Text style={styles.active}>Active</Text>
             </View>
-            {/* <View>
+            <View>
                 {
                     infoData.map(proData =>
                         <ListItem
@@ -60,7 +60,7 @@ function Profile() {
                         />
                     )
                 }
-            </View> */}
+            </View>
         </View>
     )
 }
