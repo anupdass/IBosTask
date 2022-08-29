@@ -4,11 +4,11 @@ import { View, Image, Text } from 'react-native'
 import styles from './ListItem.style'
 
 
-function ListItem({ Image, title, dept, region, regTitle }) {
+function ListItem({ img, title, dept, region, regTitle }) {
     return (
         <View style={styles.container}>
-            {/* <Image source={img} style={styles.img} /> */}
-            <Image />
+            <Image source={img} style={styles.img} />
+            {/* <Image /> */}
             <View style={styles.content}>
                 <View style={region ? styles.region : null}>
                     <Text style={styles.title}>{title}</Text>

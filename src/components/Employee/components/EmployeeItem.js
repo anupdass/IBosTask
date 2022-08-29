@@ -1,12 +1,12 @@
 import React from 'react'
-import { View, Text, TouchableOpacity, Alert } from 'react-native'
+import { View, Text, TouchableOpacity, Alert, Image } from 'react-native'
 import styles from './EmployeeItem.style'
 
-function EmployeeItem({ Image, title, backgroundColor }) {
+function EmployeeItem({ img, title, backgroundColor }) {
     return (
         <TouchableOpacity activeOpacity={.5} style={styles.wrapper} onPress={() => Alert.alert('Comming Soon')}>
             <View style={{ ...styles.imgWrapper, backgroundColor: backgroundColor }}>
-                <Image />
+                <Image source={img} />
             </View>
             <Text style={styles.title}>{title}</Text>
         </TouchableOpacity>

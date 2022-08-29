@@ -1,11 +1,12 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, Image } from 'react-native'
 import ListItem from './components/ListItem'
 import styles from './Profile.style'
-import Human from '../../../assets/svg/human.svg'
-import Birthday from '../../../assets/svg/birthday.svg'
-import Gender from '../../../assets/svg/gender.svg'
-import Profileimg from '../../../assets/svg/profile.svg'
+
+// import Human from '../../../assets/svg/human.svg'
+// import Birthday from '../../../assets/svg/birthday.svg'
+// import Gender from '../../../assets/svg/gender.svg'
+// import Profileimg from '../../../assets/svg/profile.svg'
 
 
 function Profile() {
@@ -13,19 +14,19 @@ function Profile() {
         {
             id: 1,
             title: 'Human Resource',
-            image: Human,
+            image: require('../../../assets/human.png'),
             dept: "Department"
         },
         {
             id: 2,
             title: '28 September,1990',
-            image: Birthday,
+            image: require('../../../assets/birthDay.png'),
             dept: "Date of Birth"
         },
         {
             id: 3,
             title: 'Female',
-            image: Gender,
+            image: require('../../../assets/gender.png'),
             dept: "Gender",
             region: 'Islam',
             regTitle: 'Religion'
@@ -37,7 +38,8 @@ function Profile() {
         <View style={styles.container}>
             <View style={styles.Profilecontent}>
                 <View style={styles.content}>
-                    <Profileimg />
+                    {/* <Profileimg /> */}
+                    <Image source={require('../../../assets/profileImg.png')} />
                     <View style={styles.contentText}>
                         <Text style={styles.name}>Darlene Robertson</Text>
                         <Text style={styles.title}>Senior UX Designer</Text>
@@ -52,7 +54,7 @@ function Profile() {
                     infoData.map(proData =>
                         <ListItem
                             key={proData.id}
-                            Image={proData.image}
+                            img={proData.image}
                             title={proData.title}
                             dept={proData.dept}
                             region={proData.region}
