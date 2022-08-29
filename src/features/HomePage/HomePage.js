@@ -13,8 +13,8 @@ function HomePage() {
             <CustomStatusbar backgraoundColor={ColorStyle.statusBarColor} />
             <MenuBar />
             <ScrollView style={{ marginTop: 56 }}>
-                <Profile />
-                <Employee />
+                {/* <Profile /> */}
+                {/* <Employee /> */}
                 <Input />
             </ScrollView>
         </View>
